@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="tanvir.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanvir Disign</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 5px 5px 0 red;
+  transition: 0.3s;
+  font-size: 0;
+}
+.card:hover {
+    box-shadow: 0 10px 10px 0 rgb(43, 34, 34);
+  transition: ease-in-out 1s;
+}
+
+.text1 {
+  width: 335px;
+  height: 100px;
+  text-align: right;
+  font-weight: bold;
+  font-size: large;
+  padding: 0 5px;
+  letter-spacing: 2px;
+}
+.btn {
+  width: 87px;
+  height: 70px;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(40, 47, 43);
+  color: wheat;
+}
+.clr
+{
+    background-color: rgb(100, 144, 143);
+} 
+    </style>
+  </head>
+  <body>
+    <h1>Calculator: &nbsp;</h1>
+    <div class="card">
+      <div class="calc-head">
+        <input class="text1" type="text" />
+      </div>
+      <div class="calc-body">
+        <div>
+          <input  style="background-color: yellowgreen;" type="button" class="btn" value="c" />
+          <input type="button" class="btn" value="+/-" />
+          <input type="button" class="btn" value="%" />
+          <input type="button" class="btn clr" value="/" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="7" />
+          <input type="button" class="btn" value="8" />
+          <input type="button" class="btn" value="9" />
+          <input type="button" class="btn clr" value="*" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="4" />
+          <input type="button" class="btn" value="5" />
+          <input type="button" class="btn" value="6" />
+          <input type="button" class="btn clr" value="-" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="1" />
+          <input type="button" class="btn" value="2" />
+          <input type="button" class="btn" value="3" />
+          <input type="button" class="btn clr" value="+" />
+        </div>
+        <div>
+          <input type="button" class="btn" value="0" />
+          <input type="button" class="btn" value="." />
+          <input type="button" class="btn" value="DEL" />
+          <input style="background-color: yellowgreen;" type="button" class="btn" value="=" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
